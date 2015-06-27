@@ -1,0 +1,23 @@
+{
+    "favorite" : {
+        "properties" : {
+            "user_id" : {
+                "type" : "string"
+            },
+            "proposal_id" : {
+                "type" : "string"
+            },
+            "status" : {
+                "type" : "string"
+            },
+            "favorited_at" : {
+                "type" : "date",
+                "format" : "yyyy-MM-dd HH:mm:ss Z"
+            },
+            "scheduled_at" : {
+                "type" : "date",
+                "format" : "yyyy-MM-dd HH:mm:ss Z"
+            }
+        }
+    }
+}
